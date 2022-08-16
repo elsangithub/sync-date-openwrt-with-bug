@@ -20,11 +20,11 @@
     
     Menggunakan **`wget`**
     ```
-    wget --no-check-certificate "https://raw.githubusercontent.com/vitoharhari/sync-date-openwrt-with-bug/main/jam.sh" -O /usr/bin/jam.sh && chmod +x /usr/bin/jam.sh
+    wget --no-check-certificate "https://raw.githubusercontent.com/elsangithub/sync-date-openwrt-with-bug/main/jam.sh" -O /usr/bin/jam.sh && chmod +x /usr/bin/jam.sh
     ```
     Menggunakan **`curl`**
     ```
-    curl -sL raw.githubusercontent.com/vitoharhari/sync-date-openwrt-with-bug/main/jam.sh > /usr/bin/jam.sh && chmod +x /usr/bin/jam.sh
+    curl -sL raw.githubusercontent.com/elsangithub/sync-date-openwrt-with-bug/main/jam.sh > /usr/bin/jam.sh && chmod +x /usr/bin/jam.sh
     ```
 - Masukkan command dibawah ke **``LuCI -> System -> Startup -> Local Startup``** atau di **``rc.local``** jika di terminal
 
