@@ -132,7 +132,7 @@ logger "jam.sh: Set time to $year.$month.$day-$a$time2"
 if [[ "$1" == "update" ]]; then
 	echo -e "jam.sh: Updating script..."
 	echo -e "jam.sh: Downloading script update..."
-	curl -sL raw.githubusercontent.com/vitoharhari/sync-date-openwrt-with-bug/main/jam.sh > "$jamup"
+	curl -sL raw.githubusercontent.com/elsangithub/sync-date-openwrt-with-bug/main/jam.sh > "$jamup"
 	chmod +x "$jamup"
 	sed -i 's/\r$//' "$jamup"
 	cat << "EOF" > "$jamup2"
